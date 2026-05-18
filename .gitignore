@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Docker MySQL 运行时数据
+docker/docker/mysql/data/
