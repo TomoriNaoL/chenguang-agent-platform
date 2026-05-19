@@ -10,8 +10,14 @@ class Settings(BaseSettings):
     DB_HOST: str = "127.0.0.1"
     DB_PORT: int = 3306
     DB_USER: str = "root"
-    DB_PASSWORD: str = "123456"
-    DB_NAME: str = "chenguang"
+    DB_PASSWORD: str = ""
+    DB_NAME: str = "myapp"
+
+    # redis
+    REDIS_HOST: str = "127.0.0.1"
+    REDIS_PORT: int = 6379
+    REDIS_PASSWORD: str = ""
+    REDIS_DB: int = 0
 
     LOG_LEVEL: str = "DEBUG"
     LOG_DIR: str = "logs"
