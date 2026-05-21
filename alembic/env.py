@@ -25,6 +25,8 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
+import src.modules.role.model
+import src.modules.permission.model  # noqa: F401
 from src.core.base_model import Base
 import src.modules.user.model
 target_metadata = Base.metadata
